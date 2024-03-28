@@ -1,8 +1,14 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
+    css = { "prettier" },
+    html = { "prettier" },
+
+    -- Conform will run multiple formatters sequentially
+    python = { "isort", "black" },
+
+    -- terraform formatter
+    terraform = { "terraform_fmt" },
   },
 
   -- format_on_save = {
