@@ -65,7 +65,7 @@ return {
     end,
   },
 
-  -- show virtual column
+  -- Show virtual column
   {
     "lukas-reineke/virt-column.nvim",
     event = "User FilePost",
