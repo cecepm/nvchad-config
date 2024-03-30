@@ -56,6 +56,7 @@ return {
     },
   },
 
+  -- Show trailing whitespace
   {
     "cappyzawa/trim.nvim",
     event = "User FilePost",
@@ -63,4 +64,14 @@ return {
       require "configs.trim"
     end,
   },
+
+  -- show virtual column
+  {
+    "lukas-reineke/virt-column.nvim",
+    event = "User FilePost",
+    opts = {
+       virtcolumn = "+1,120"
+    }
+  },
+
 }
