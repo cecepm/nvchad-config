@@ -13,6 +13,10 @@ map("i", "jk", "<ESC>")
 map("n", "<F1>", "<nop>", { desc = "Press F1, but do nothing" })
 map("i", "<F1>", "<nop>", { desc = "Press F1, but do nothing" })
 
+-- Close Buffer (ALT+W)
+map("n", "<A-w>", function()
+  require("nvchad.tabufline").close_buffer()
+end, { desc = "Buffer Close" })
 
 -- just for example, nvchad already have shortcut for formatting file, <Leader>fm
 --
