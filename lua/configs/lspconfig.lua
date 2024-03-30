@@ -35,3 +35,5 @@ lspconfig.pyright.setup {
     }
   }
 }
+
+lspconfig.bashls.setup{}
