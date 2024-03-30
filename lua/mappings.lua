@@ -11,6 +11,7 @@ map("i", "jk", "<ESC>")
 -- and the Help screen pops up. Here is a solution
 -- https://vim.fandom.com/wiki/Disable_F1_built-in_help_key
 map("n", "<F1>", "<nop>", { desc = "Press F1, but do nothing" })
+map("i", "<F1>", "<nop>", { desc = "Press F1, but do nothing" })
 
 
 -- just for example, nvchad already have shortcut for formatting file, <Leader>fm
