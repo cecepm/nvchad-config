@@ -1,5 +1,5 @@
 # Starter
-Starter config for NvChad
+Starter config for NvChad v2.5
 
 ## NvChad Requirements
 
