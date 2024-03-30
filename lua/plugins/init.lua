@@ -58,6 +58,7 @@ return {
 
   {
     "cappyzawa/trim.nvim",
+    event = "User FilePost",
     config = function()
       require "configs.trim"
     end,
