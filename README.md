@@ -1,6 +1,8 @@
 # Starter
 Starter config for NvChad v2.5
 
+![NvChad Screenshot](https://github.com/cecepm/nvchad-config/blob/main/screenshot/nvim-screenshot.png?raw=true)
+
 ## NvChad Requirements
 
 - Neovim 0.9.5
