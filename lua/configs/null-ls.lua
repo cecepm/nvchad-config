@@ -14,6 +14,12 @@ local sources = {
 
   -- Lua
   format.stylua,
+
+  -- SQL
+  format.sqlfluff.with{
+    args = { "format", "--disable-progress-bar", "-n", "-" },
+    extra_args = { "--dialect", "sparksql" }, -- change to your dialect
+  }
 }
 
 null_ls.setup {
