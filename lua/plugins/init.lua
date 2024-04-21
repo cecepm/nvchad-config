@@ -69,12 +69,12 @@ return {
   },
 
   -- Show virtual column
-  {
-    "lukas-reineke/virt-column.nvim",
-    event = "User FilePost",
-    opts = {
-       virtcolumn = "+1,120"
-    }
-  },
+  -- {
+  --   "lukas-reineke/virt-column.nvim",
+  --   event = "User FilePost",
+  --   opts = {
+  --      virtcolumn = "+1,120"
+  --   }
+  -- },
 
 }
